@@ -17,5 +17,11 @@ namespace WinFormsPizza
             FrmListaClientes clientes = new FrmListaClientes();
             clientes.ShowDialog();
         }
+
+        private void BtnProductos_Click(object sender, EventArgs e)
+        {
+            FrmListaProductos productos = new();
+            productos.ShowDialog();
+        }
     }
 }
